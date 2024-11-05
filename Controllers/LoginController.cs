@@ -8,7 +8,9 @@ using System.Reflection;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
+//    aksh randi
+// akash mishra 
+// akash gandu
 namespace Login.Controllers
 {
     [Route("api/[controller]")]
