@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "Login.Controllers.AdminLoginController",
+    "Method": "Login",
+    "RelativePath": "api/AdminLogin/Signin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "Login.Models.AdminLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Login.Controllers.ConsumerController",
+    "Method": "ConsumerLogin",
+    "RelativePath": "api/Consumer/M_ConsumerLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "Login.Models.ConsumerLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Login.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Microsoft.AspNetCore.Identity.Data.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Login.Controllers.VendorRegistrationController",
+    "Method": "Registration",
+    "RelativePath": "api/VendorRegistration/Registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Reg",
+        "Type": "Login.Requests.Registration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Login.Controllers.VendorRegistrationController",
+    "Method": "ValidateOTP",
+    "RelativePath": "api/VendorRegistration/ValidateOTP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Otp",
+        "Type": "Login.Requests.ValidateOtp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
